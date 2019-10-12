@@ -2,15 +2,15 @@
 
 Just a Dockerfile to deploy an nginx container.
 
-This Dockerfile can be used in combination with my Vagrantfile : https://github.com/Thomson33/MyVagrantEnv
+This Dockerfile can be used in combination with my Vagrantfile : https://github.com/thoomson/MyVagrantEnv
 
 ## How to use it
 
 0. Install Docker (or use my Vagrantfile) : https://docs.docker.com/install/
-1. Get the Dockerfile (with curl : `curl https://raw.githubusercontent.com/Thomson33/MyDockerStarter/master/Dockerfile > Dockerfile`)
+1. Get the Dockerfile (with curl : `curl https://raw.githubusercontent.com/thoomson/MyDockerStarter/master/Dockerfile > Dockerfile`)
 2. Build the container : sudo docker build -t my-container .
 3. Start the container : sudo docker run -d -p 8080:80 -p 2222:22 my-container
-4. Have fun !
+5. Have fun !
 
 ## Contributing
 
